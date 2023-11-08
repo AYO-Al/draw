@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T09:58:03.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.0.8" etag="MUDzzjcAn4GYUUkFWm0J" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T13:07:33.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="aAhQoLhmW1ztc3ee5qm7" version="22.0.8" type="github">
   <diagram name="第 1 页" id="2rPwsxsZ7Br1GMojUpt_">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aktmekFdQaOdODJRmA_F-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-1" target="aktmekFdQaOdODJRmA_F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-1" target="aktmekFdQaOdODJRmA_F-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-1" value="根DNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-2" target="aktmekFdQaOdODJRmA_F-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-2" target="aktmekFdQaOdODJRmA_F-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-2" value="comDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-3" target="aktmekFdQaOdODJRmA_F-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aktmekFdQaOdODJRmA_F-3" target="aktmekFdQaOdODJRmA_F-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-3" value="cnDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-4" value="baidu.comDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-5" value="jd.comDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-6" value="play.cnDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aktmekFdQaOdODJRmA_F-7" value="game.cnDNS服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
