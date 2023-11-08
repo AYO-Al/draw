@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T06:05:18.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="JG_9yv_dsWVdbDjeyH2z" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T06:07:46.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="TlmlJnmV4Q1XbmQmLP-t" version="22.0.8" type="github">
   <diagram name="第 1 页" id="EZE1y0nEabGCO-7ae4F7">
     <mxGraphModel dx="956" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="ZX59vD8KczDdF2iJHPan-4" value="dble" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="190" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XvlknHN8pUFhw5sS-KLo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZX59vD8KczDdF2iJHPan-5" target="ZX59vD8KczDdF2iJHPan-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZX59vD8KczDdF2iJHPan-5" value="主MySQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="300" y="400" width="120" height="60" as="geometry" />
@@ -80,6 +83,12 @@
         </mxCell>
         <mxCell id="XvlknHN8pUFhw5sS-KLo-16" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="368" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvlknHN8pUFhw5sS-KLo-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZX59vD8KczDdF2iJHPan-5" target="ZX59vD8KczDdF2iJHPan-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="510" as="sourcePoint" />
+            <mxPoint x="290" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
