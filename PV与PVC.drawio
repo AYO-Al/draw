@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T14:04:15.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.6.5" etag="BYtll4vWJZUlIEHMgr5z" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T14:13:53.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="mNLd0J0c9W3f4CRIVCJE" version="24.6.5" type="github">
   <diagram name="第 1 页" id="m7OkMbUoLvzkeNqbl6e3">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-1" value="NFS输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="36" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-2" target="7kqusPWiwRHM51Hc31Ap-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-2" value="Persistent&lt;div&gt;持久卷&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="131" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-3" target="7kqusPWiwRHM51Hc31Ap-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571.3999633789062" y="210.80001831054688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-3" value="Persistent&lt;div&gt;持久卷申领&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-4" value="pod" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="293" y="323" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-5" target="7kqusPWiwRHM51Hc31Ap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-5" value="卷" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315.5" y="335" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-6" target="7kqusPWiwRHM51Hc31Ap-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-6" target="7kqusPWiwRHM51Hc31Ap-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-6" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="54" y="36" width="94" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-12" target="7kqusPWiwRHM51Hc31Ap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7kqusPWiwRHM51Hc31Ap-12" target="7kqusPWiwRHM51Hc31Ap-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-12" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="248" width="99" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-16" value="1. 集群管理员创建某类型的网络存储&lt;div&gt;(NFS接口或类似的)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="52" width="211" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-18" value="2. 然后管理员通过向Kubernetes API&lt;div&gt;传递PV申明来创建持久卷&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="134" y="187" width="211" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-20" value="3. 用户创建一个持久卷申领" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="235" width="163" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-21" value="4. Kubernetes找到一个具有足够容量的PV&lt;div&gt;将其置于访问模式&lt;span style=&quot;background-color: initial;&quot;&gt;并将PVC绑定到PV&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="529" y="257" width="241" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="7kqusPWiwRHM51Hc31Ap-24" value="5. 用户创建一个pod&lt;div&gt;并通过卷配置来引用PVC&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="118" y="399" width="151" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
