@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T13:15:30.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.6.5" etag="mu1v2UBukF-ssZ2YKYX6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T13:19:46.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="Z5yJE3dXW1fsDgl627ke" version="24.6.5" type="github">
   <diagram name="第 1 页" id="-jyinFLT18fLQegA6qnE">
-    <mxGraphModel>
+    <mxGraphModel dx="956" dy="577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-1" value="1. 用户(或复制控制器)&lt;div&gt;创建带有gitRepo卷&lt;/div&gt;&lt;div&gt;的pod&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-2" value="pod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="360" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_cU_Q7wpIJ8RvnNqIzko-3" target="_cU_Q7wpIJ8RvnNqIzko-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-3" value="Reposityry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="768" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-4" value="容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-5" value="gitRepo&lt;div&gt;volume&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-7" value="2. Kubernetes创建一个&lt;div&gt;空目录&lt;span style=&quot;background-color: initial;&quot;&gt;并将指定的Git&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;仓库克隆到其中&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="632" y="294" width="141" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_cU_Q7wpIJ8RvnNqIzko-8" target="_cU_Q7wpIJ8RvnNqIzko-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_cU_Q7wpIJ8RvnNqIzko-8" value="3. pod中的容器已经启动&lt;div&gt;(卷挂载挂载路径下)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59" y="346" width="147" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
