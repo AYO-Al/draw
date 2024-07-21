@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T07:51:46.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="zL0W9-2pSgswI81ztJEZ" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T07:52:13.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="oL7eWAAJHM1gYz2qbfET" version="24.7.2" type="github">
   <diagram name="第 1 页" id="42klITVC1EchFTXipI6x">
     <mxGraphModel dx="1356" dy="577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JmZSykbEsUqlxRbStCCT-1" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-1" value="Pod" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-5" y="54" width="469" height="517" as="geometry" />
         </mxCell>
-        <mxCell id="JmZSykbEsUqlxRbStCCT-2" value="API服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-2" value="API服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="632" y="356" width="215" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="JmZSykbEsUqlxRbStCCT-3" value="容器：main" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-3" value="容器：main" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="101" y="113" width="257" height="106" as="geometry" />
         </mxCell>
         <mxCell id="JmZSykbEsUqlxRbStCCT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JmZSykbEsUqlxRbStCCT-4" target="JmZSykbEsUqlxRbStCCT-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JmZSykbEsUqlxRbStCCT-4" value="容器：ambassador" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-4" value="容器：ambassador" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="101" y="362" width="257" height="106" as="geometry" />
         </mxCell>
         <mxCell id="JmZSykbEsUqlxRbStCCT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JmZSykbEsUqlxRbStCCT-8" target="JmZSykbEsUqlxRbStCCT-4">
@@ -27,10 +27,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JmZSykbEsUqlxRbStCCT-5" value="curl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-5" value="curl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="170" y="144" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JmZSykbEsUqlxRbStCCT-6" value="kubectl proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JmZSykbEsUqlxRbStCCT-6" value="kubectl proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="169.5" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JmZSykbEsUqlxRbStCCT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JmZSykbEsUqlxRbStCCT-5" target="JmZSykbEsUqlxRbStCCT-8">
